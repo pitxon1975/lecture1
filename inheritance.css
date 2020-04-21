@@ -1,0 +1,22 @@
+/* line 1, ../../../github/lecture1/css/inheritance.scss */
+.success, .warning, .error {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 2px; }
+
+/* line 9, ../../../github/lecture1/css/inheritance.scss */
+.success {
+  background-color: springgreen; }
+
+/* line 14, ../../../github/lecture1/css/inheritance.scss */
+.warning {
+  background-color: yellow; }
+
+/* line 19, ../../../github/lecture1/css/inheritance.scss */
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=inheritance.css.map */

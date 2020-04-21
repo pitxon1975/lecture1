@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "inheritance.css",
+	"sources": [
+		"css/inheritance.scss"
+	],
+	"sourcesContent": [
+		"%message {\r\n  font-family: sans-serif;\r\n  font-size: 18px;\r\n  font-weight: bold;\r\n  border: 1px solid black;\r\n  padding: 20px;\r\n}\r\n\r\n.success {\r\n  @extend %message;\r\n  background-color: green;\r\n}\r\n\r\n.warning {\r\n  @extend %message;\r\n  background-color: yellow;\r\n}\r\n\r\n.error {\r\n  @extend %message;\r\n  background-color: red;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAQA,AARA,QAQQ,EAKR,QAAQ,EAKR,MAAM,CAlBG;EACP,WAAW,EAAE,UAAU;EACvB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,IAAI,GACd;;;AAED,AAAA,QAAQ,CAAC;EAEP,gBAAgB,EAAE,KAAK,GACxB;;;AAED,AAAA,QAAQ,CAAC;EAEP,gBAAgB,EAAE,MAAM,GACzB;;;AAED,AAAA,MAAM,CAAC;EAEL,gBAAgB,EAAE,GAAG,GACtB"
+}
